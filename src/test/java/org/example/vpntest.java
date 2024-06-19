@@ -120,13 +120,8 @@ public class vpntest {
 
                 // Simulate pressing the space button on the element
                 element.click();
-                Thread.sleep(900000); // Sleep for 1 second
-                //Thread.sleep(3000); // Sleep for 1 second
-                Thread.sleep(900000); // Sleep for 1 second
-                Thread.sleep(900000); // Sleep for 1 second
-                Thread.sleep(900000); // Sleep for 1 second
-                Thread.sleep(900000); // Sleep for 1 second
-                Thread.sleep(900000); // Sleep for 1 second
+                Thread.sleep(2400000); // Sleep for 1 second
+
 
                 WebElement pause = driver.findElement(By.xpath("(//*[contains(@class,'yt-spec-button-shape-next--call-to-action')])[3]"));
                 if (pause.isDisplayed())
